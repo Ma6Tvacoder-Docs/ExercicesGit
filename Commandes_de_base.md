@@ -5,6 +5,15 @@ les valeurs placé <> seront des choses a remplacer par votre code.
 
 ## Configurer son GitBash
 
+### Configuration
+
+Il est important de lier votre compte a GitHub pour que vos actions asoient contabilisé et mise a jour sur votre profil. S'aisissez vous de votre userName github et de l'adresse mail lié a votre compte GitHub
+
+Afin de les configurer dans GtiBash vous devrez faire ces deux commandes :
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
 ### L'aide
 
 Sur chaque commandes, il est possible d'afficher l'aide en ligne directemenet depuis la console avec la commande
@@ -16,15 +25,6 @@ En tapant par exemple
     git commit --help
 
 Une page sur la commande devrait s'ouvrir vous donnant les inforamtions principales relatives a cette commande.
-
-### Configuration
-
-Il est important de lier votre compte a GitHub pour que vos actions asoient contabilisé et mise a jour sur votre profil. S'aisissez vous de votre userName github et de l'adresse mail lié a votre compte GitHub
-
-Afin de les configurer dans GtiBash vous devrez faire ces deux commandes :
-
-    git config --global user.name "John Doe"
-    git config --global user.email johndoe@example.com
 
 ### Navigation
 
