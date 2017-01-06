@@ -50,4 +50,25 @@ Avez vous déjà sauvegardé une version differente d'un fichier ? Quelque chose
 + **histoire.txt**
 + **histoire-joe.txt**
 + **histoire-joe-edit-reviewed.txt**
-Les branches accomplissent un travail somolaire dans le repertoir GitHub
+Les branches accomplissent un travail similaire dans le repertoir GitHub
+
+Ici à GitHub, nos developpeurs, ecrivains et designers utilisent les branches pour sauvegarder les *patchs* ( ou *bug fix* ) et les *feature work* (complements) séparé de la branche **master** ( que l'on apel production ). Quand un changement est prêt, ils mergent leur branche dans **master**.
+
+### Pour creer une nouvelle branche
+
+1. Aller dans votre nouveau *repository* / repertoire
+2. Cliquez sur la liste déroulante en haut de la liste de fichier ou est ecrits **branch: master**
+3. Tapez le nom de votre branch, **readme-edits** dans la boite de dialogue *new branch*
+4. Selectionnez la boite de dialogue bleu *Create branch* ou appuyez sur **entrer**
+![Explication 03](https://guides.github.com/activities/hello-world/readme-edits.gif "Explenation02")
+
+Maintenant vous avez 2 branches, une **master** et une autre **readme-edits**. Elles sont exactement pareil pour le moment, mais plus pour longtemps. Ensuite nous nous allons ajouter des changements a notre nouvelle branche.
+
+## Etape 3. *Make and commit changes*
+
+Bravo!
+Maintenant vous êtes dans la vue de votre branche **redme-edits** qui est une copie de la branche **master**. Faisons quelques modifications.
+
+Sur GitHub, sauvegardez vos changements, et appuyez sur commits. A chaques commit et associé un message de commit qui est une description ou explication de pourquoi à été fait un changement en particulier. Le message de commit permet de retrouver son commit dans un historique de commit, il vous permet de revenir en arriere si besoin et de ne pas être perdu. Il vous permet donc de comprendre ce qu'est ce message de commit.
+
+### *Make and commit changes*
