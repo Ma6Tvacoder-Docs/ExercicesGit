@@ -21,4 +21,33 @@ Pour completer ce tutoriel vous aurez besoin d'un [compte GitHub.com](https://gi
 
 Un **Repository** ou repertoire, est en général utilisé pour organiser un projet simple. Le **repository** peut contenir des dossiers et des fichiers, des vidéos, des notes et des ensembles de données -- tout ce dont votre projet à besoin. Il est recommendé de mettre un fichier Readme, ou un fichier avec les informations relative à votre projet. GitHub vous rend la tache facile en vous proposant d'en ajouter un au même moment que lorsque vous creer votre **repository**. *Il vous offre également la possibilité de creer un fichier de license*.
 
-Votre repertoire `hello-world` peut être un endroit ou vous stoquez des idées, des ressources, ou même partagez et discutez des choses avec les autres. 
+Votre repertoire `hello-world` peut être un endroit ou vous stoquez des idées, des ressources, ou même partagez et discutez des choses avec les autres.
+
+### Creer un nouveau repertoir / *repository*
+
+1. Dans le coin supperieur droit, à côté de votre avatar ou *identicon*, cliquez + et selectionne *New repository*
+2. Nommez votre repertoir **hello-world**
+3. Ecrivez une courte desciption
+4. Selecionnez *Initialize this repository with a README*
+![Explication 01](https://guides.github.com/activities/hello-world/create-new-repo.png "Explenation01")
+5. Cliquez sur *Create repository*
+
+## Etape 2. Creez une Branch
+
+Creer une branche ou *branching* est un moyen de travailler sur differentes versions d'un repertoire en même temps.
+
+Par defaut votre repertoire a une branche nommé **master**, concidéré comme la branche principale. Nous utiliserons les branches pour experimenter et editer le projet avant de les envoyer sur le **master**.
+
+Quand vous créez une branche à partir du repertoir **master**, vous faitent une copie, ou une *photo* de master comme si c'était le point de départ à ce moment là. Si quelqu'un d'autre fait un changement sur la branche **master** pendant que vous travaillez sur votre branche, vous pouvez retirer les elements avec la commande *pull* de ces updates.
+
+Ce diagramme montre :
+
++ La branche **master**
++ une nouvelle branche appelé **feature** ( car nous allons travailler sur une nouvelle fonctionnalité dans cette branche )
++ Le parcour que **feature** prend avant de *merge* ( fusionner ) la branche dans **master**
+![Explication 02](https://guides.github.com/activities/hello-world/branching.png "Explenation02")
+Avez vous déjà sauvegardé une version differente d'un fichier ? Quelque chose comme :
++ **histoire.txt**
++ **histoire-joe.txt**
++ **histoire-joe-edit-reviewed.txt**
+Les branches accomplissent un travail somolaire dans le repertoir GitHub
