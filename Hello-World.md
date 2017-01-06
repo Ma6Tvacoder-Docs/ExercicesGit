@@ -1,8 +1,10 @@
 # Hello World
 
 *Traduction française de la page* [Hello World](https://guides.github.com/activities/hello-world/ "version original")
-*Il ne prend qu'une dixaine de minutes a completer.*
-*Auteur @adricen*
+
+*Ce tutoriel ne prend qu'une dixaine de minutes à completer*
+
+*Auteur* [@adricen](https://github.com/adricen "version original")
 
 Le projet Hello World est un classique du monde de la programmataion. C'est un exercice simple qui vous permet d'apprendre quelque chose de nouveau. Commençons avec GitHub!
 
@@ -60,7 +62,7 @@ Ici à GitHub, nos developpeurs, ecrivains et designers utilisent les branches p
 2. Cliquez sur la liste déroulante en haut de la liste de fichier ou est ecrits **branch: master**
 3. Tapez le nom de votre branch, **readme-edits** dans la boite de dialogue *new branch*
 4. Selectionnez la boite de dialogue bleu *Create branch* ou appuyez sur **entrer**
-![Explication 03](https://guides.github.com/activities/hello-world/readme-edits.gif "Explenation02")
+![Explication 03](https://guides.github.com/activities/hello-world/readme-edits.gif "Explenation03")
 
 Maintenant vous avez 2 branches, une **master** et une autre **readme-edits**. Elles sont exactement pareil pour le moment, mais plus pour longtemps. Ensuite nous nous allons ajouter des changements a notre nouvelle branche.
 
@@ -72,3 +74,37 @@ Maintenant vous êtes dans la vue de votre branche **redme-edits** qui est une c
 Sur GitHub, sauvegardez vos changements, et appuyez sur commits. A chaques commit et associé un message de commit qui est une description ou explication de pourquoi à été fait un changement en particulier. Le message de commit permet de retrouver son commit dans un historique de commit, il vous permet de revenir en arriere si besoin et de ne pas être perdu. Il vous permet donc de comprendre ce qu'est ce message de commit.
 
 ### *Make and commit changes*
+
+1. Cliquez sur le fichier **README.md**
+2. Cliquez sur l'icon crayon dans le coin supperieur droit du lecteur de fichier pour l'editer
+3. Dans l'editeur, ecrivez un morceau à propos de vous
+4. Ecrivez un message de commit qui decris vos changements
+5. Cliquez sur le bouton `commit changes`
+![Explication 04](https://guides.github.com/activities/hello-world/commit.png "Explenation04")
+
+Ces changements seront fait uniquement sur le fichier README sur votre branche **readme-edits**, donc maintenant le contenus de cette branche est different de la branche **master**.
+
+## Etape 4. Faire un Pull Request
+
+*Superbe modification!*
+Maintenant que vous avez fait ce changement de la branche **master** vous pouvez faire un *Pull Request*.
+
+Le *Pull Request* est au coeur de la collaboration sur GitHub. Quand vous demandez un *Pull Request*, vous proposez vos changements et demandez que quelqu'un valide, prennent votre contribution et la fusionne dans sa branche. *Pull Request* montre les differences de contenus entre les deux branches. Les changements, ajouts, suppretions sont montrés en vert ou rouge.
+
+Dés que vous avez fait un *commit*, vous pouvez demander un *Pull Request* et commencer une discution avant même que le code soit finis.
+
+En utilisant le [systeme de @mention](https://help.github.com/articles/about-writing-and-formatting-on-github/#text-formatting-toolbar "mentionner quelqu1") de GitHub dans votre message de *Pull Request*, vous pouvez demander un retour d'une personne en particulier ou même à une équipe, qu'elle soit en bas de léimmeuble comme au bout du monde.
+
+Vous pouvez même demander un *Pull Request* dans votre propre repertoire / *repository* et fusionner / *merge* les fichiers vous même.
+
+### Demander un *Pull Request* pour changer le fichier README
+
+*Cliquez sur l'image pour une version plus large*
+
+Colons can be used to align columns.
+
+| Points        | Rendus           |
+| ------------- | ---------------- |
+| Cliquez sur le bouton *Pull Request*, ensuite depuis la page  *Pull Request*  cliquez sur le bouton vert  *New Pull Request*  | ![Explication 05](https://guides.github.com/activities/hello-world/pr-tab.gif "Explenation05") |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
