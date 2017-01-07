@@ -5,4 +5,4 @@ Il sert à regrouper l'ensemble des projets autour de l'apprentissage de Git ain
 
 ### Auteurs et Contributeurs
 
-Adrien Centonze --> [adricen](https://github.com/adricen "profile Git")
+[@adricen](https://github.com/adricen "profile Git")
