@@ -6,7 +6,7 @@
 
 *Traduction* [@adricen](https://github.com/adricen "Profil")
 
-Le projet Hello World est un classique du monde de la programmataion. C'est un exercice simple qui vous permet d'apprendre quelque chose de nouveau. Commençons avec GitHub!
+Le projet Hello World est un classique du monde de la programmation. C'est un exercice simple qui vous permet d'apprendre quelque chose de nouveau. Commençons avec GitHub!
 
 ## Qu'est-ce que GitHub ?
 
