@@ -12,7 +12,7 @@ Il est important de lier votre compte a GitHub pour que vos actions asoient cont
 Afin de les configurer dans GtiBash vous devrez faire ces deux commandes :
 
     git config --global user.name "John Doe"
-    git config --global user.email johndoe@example.com
+    git config --global user.email "johndoe@example.com"
 
 ### L'aide
 
@@ -70,6 +70,16 @@ Lorsque l'on veut actualiser son dossier en locale on utilise la commmandes
 
 Faire un git pull vous sera demandé a chaque fois que votre dossier en locale ne sera pas le meme que celui online. Si d'autres personnes travaillent avec vous il vous sera demandé de faire un pull avant de pouvoir pusher quoi que ce soit.
 Il est possible que vous ayez des problem de merge si des changements trop important ont été fait. Se reporter a la section merge dans ce cas là.
+
+### Add
+
+Avant de faire un commit ou aprés avoir fait un pull, il faut ajouter au commit les fichiers nouvellement créé, soit ceux qui ne sont pas encore pris en compte dans le `commit`.
+
+```git
+
+git add .
+
+```
 
 ### Commit
 
